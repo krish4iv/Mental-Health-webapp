@@ -42,7 +42,11 @@ h1{
     margin: 15px 0;
 }
 .common-btn{
-    padding:10px 40px;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    margin-left: 10%;
+    padding: 20px 20px;
     background: transparent;
     outline: none;
     border: 2px solid #f67c92;
@@ -78,6 +82,7 @@ display: inline-block;
         display: inline-block;
         }
  .line{
+    margin-left: 10%;
     line-height: 8px;
  }     
  #sideNav {
@@ -148,41 +153,61 @@ text-align: left;
     text-align: left;
  }
  /*features*/
- #features{
+ #features {
     padding-top: 50px;
     padding-bottom: 50px;
- }
- .feature-row{
+}
+
+.feature-row {
     width: 80%;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
- }
- .feature-col{
+}
+
+.feature-col {
     flex-basis: 25%;
     text-align: center;
- }
- .feature-col img{
+}
+
+.feature-col img {
     width: 100px;
- }
- .feature-col h4{
+}
+
+.feature-col h4 {
     margin-bottom: 15px;
     font-size: 20px;
     font-weight: 400;
- }
- .feature-btn{
+}
+
+.feature-btn {
     margin: 80px auto 0;
     display: flex;
     align-items: center;
     justify-content: center;
- }
- .feature-btn .line{
+}
+
+/* Centering the button */
+.feature-btn button {
+    justify-content: center;
+    align-content: center;
+    padding: 10px 40px;
+    background: transparent;
+    outline: none;
+    border: 2px solid #f67c92;
+    font-weight: bold;
+    cursor: pointer;
+    display: block; /* Ensure the button is a block element */
+    margin: 0 auto; /* Center horizontally */
+}
+
+.feature-btn .line {
     text-align: center;
     display: inline-block;
     margin-right: 25px;
- }
+}
   /*chat*/
   #chat-bot{
     padding: 100px 0;
