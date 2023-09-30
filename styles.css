@@ -45,7 +45,7 @@ h1{
     justify-content: center;
     align-content: center;
     display: flex;
-    margin-left: 10%;
+    margin-left: 14%;
     padding: 20px 20px;
     background: transparent;
     outline: none;
@@ -82,7 +82,7 @@ display: inline-block;
         display: inline-block;
         }
  .line{
-    margin-left: 10%;
+    margin-left: 13.5%;
     line-height: 8px;
  }     
  #sideNav {
@@ -369,3 +369,4 @@ a:hover {
     margin-top: 20px;
     width: 100px;
 }
+
