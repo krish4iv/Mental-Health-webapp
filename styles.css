@@ -41,17 +41,34 @@ h1{
     background: #f67c92;
     margin: 15px 0;
 }
-.common-btn{
-    justify-content: center;
-    align-content: center;
+.common-btn {
+    justify-content: left;
+    align-content: left;
     display: flex;
-    margin-left: 14%;
+    margin-left: 0%;
     padding: 20px 20px;
     background: transparent;
     outline: none;
     border: 2px solid #f67c92;
+    color: #333;
     font-weight: bold;
     cursor: pointer;
+    z-index: 1;
+    transition: background-color 0.3s ease-in-out 0.8, color 0.3s ease-in-out 0.8, border-color 0.3s ease-in-out 0.8;
+}
+
+
+.common-btn:hover {
+    content: '';
+    background-color:#f05f7a; /* Change the background color on hover */
+    color: #ffffff; /* Change the text color on hover */
+    z-index: -1;
+    transform-origin: left;
+    border-color: #f67c92; /* Change the border color on hover */
+}
+
+.common-btn:hover::after{
+left: 0%;
 }
 p{
     font-size: 15px;
@@ -68,6 +85,7 @@ width: 15px;
 height: 15px;
 background: #f67c92;
 display: inline-block;
+position: relative;
 }
 .line-2{
     width: 80px;
@@ -82,7 +100,7 @@ display: inline-block;
         display: inline-block;
         }
  .line{
-    margin-left: 13.5%;
+    margin-left: 0%;
     line-height: 8px;
  }     
  #sideNav {
